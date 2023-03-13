@@ -21,6 +21,9 @@
     "eject": "react-scripts eject",
     "cy:test": "cypress run --headless --browser chrome --spec \"cypress/integration/*.spec.js\""
   },
+  "engines": {
+  "node": "16.x"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
